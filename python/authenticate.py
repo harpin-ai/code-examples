@@ -25,7 +25,7 @@ def authenticate():
         raise KeyError("REFRESH_TOKEN environment variable is required")
     
     # API endpoint
-    url = "https://api.seviin.ai/token"
+    url = "https://api.harpin.ai/token"
     
     # Request headers
     headers = {
